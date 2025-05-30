@@ -133,6 +133,8 @@ linux-permissions-project/
 
 ### Permission Modification Process
 ![Permission Changes](screenshots/permission-changes.png)
+![Permission Changes](screenshots/permission-changes1.png)
+![Permission Changes](screenshots/permission-changes2.png)
 *Demonstration of chmod commands being executed to modify file permissions*
 
 ### Final Verification
