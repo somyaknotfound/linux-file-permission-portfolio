@@ -10,7 +10,7 @@ To complete this task, I performed the following tasks:
 
 The following demonstrates how I used Linux commands to determine the existing permissions set for a specific directory in the file system.
 
-![Initial Directory Listing](./screenshots/permission-changes.png)
+![Initial Directory Listing](.,/screenshots/permission-changes.png)
 
 The first line shows the list of directories under the current parent folder and it shows our projects folder on which we need to work. After that we navigate to the projects directory and check permissions for all contents inside it using `ls -la` command. 
 
@@ -48,7 +48,7 @@ For example, the file permissions for `project_t.txt` are `-rw-rw-r--`:
 
 As per the organization's norms, others should not have access to write on any files, so we remove the write permission for all the other owners in the project files.
 
-![Permission Changes](./screenshots/permission-changes2.png)
+![Permission Changes](../screenshots/permission-changes2.png)
 
 ### Commands Executed:
 ```bash
@@ -64,7 +64,7 @@ chmod o-w project_t.txt
 
 The hidden file should not have write permissions for anyone, but the user and group should be able to read the file. For this I ran the following commands:
 
-![Hidden File Permissions](./screenshots/permission-changes1.png)
+![Hidden File Permissions](../screenshots/permission-changes1.png)
 
 ### Commands Executed:
 ```bash
@@ -80,7 +80,7 @@ chmod u-w,g-w,g+r .project_x.txt
 
 The directory should only have executable access to researcher2. As we can see, the drafts directory within the projects directory has execute permissions that need to be modified so that only researcher2 has the permission.
 
-![Directory Permissions](./screenshots/final-verification.png)
+![Directory Permissions](../screenshots/final-verification.png)
 
 ### Commands Executed:
 ```bash
