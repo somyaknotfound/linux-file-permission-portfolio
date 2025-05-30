@@ -10,7 +10,7 @@ To complete this task, I performed the following tasks:
 
 The following demonstrates how I used Linux commands to determine the existing permissions set for a specific directory in the file system.
 
-![Initial Directory Listing](.,/screenshots/permission-changes.png)
+![Initial Directory Listing](../screenshots/permission-changes.png)
 
 The first line shows the list of directories under the current parent folder and it shows our projects folder on which we need to work. After that we navigate to the projects directory and check permissions for all contents inside it using `ls -la` command. 
 
